@@ -13,7 +13,7 @@ namespace Kiwiland.Controllers
     [ApiController]
     public class JobController : ControllerBase
     {
-        private readonly RegisterDbContext _context;
+        private readonly RegisterDbContext _context;// Riya thomas
 
         public JobController(RegisterDbContext context)
         {
