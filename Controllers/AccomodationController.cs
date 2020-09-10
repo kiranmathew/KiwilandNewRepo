@@ -29,7 +29,7 @@ namespace Kiwiland.Controllers
             RegisterDbContext db = new RegisterDbContext();
              return db.TestRegisters.ToList();
         }
-        [HttpPost]
+        [HttpPost] //arun's comment
         public void AccomodationPost()
         {
             RegisterDbContext db = new RegisterDbContext();
